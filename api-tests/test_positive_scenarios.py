@@ -19,7 +19,7 @@ def test_top_stories():
     assert top_rand_story_response.status_code == 200
     json_data = top_rand_story_response.json()
 
-    #Assert different return values from the response
+    #Assert different return values from the json response
     assert json_data["id"] == rand_story_id
     assert isinstance(json_data["score"], int)
     assert isinstance(json_data["title"], str)
