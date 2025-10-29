@@ -28,7 +28,11 @@ Since I'm using Mac, I am listing the required software and tools needed prior t
            14. `$ which python`
            15. While the virtual environment is active, the above command will output a filepath that includes the .venv directory, by ending with the following: `.venv/bin/python`.
 
-Install packages
+### Install packages
 - Activate your virtual environment and install the `Requests` library:
   - `$ python3 -m pip install requests`
 
+- Ensure that the virtual environment is selected upon launching your IDE.
+  - Example: In my case, I am using PyCharm, and the virtual env details are listed in the bottom right corner (under _"Python Interpreter"_)
+  - If you are still experiencing issues, please follow the steps listed [here](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html#add-existing-interpreter)
+    
